@@ -213,6 +213,11 @@ tempCodeRunnerFile.py
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Ignore all CSV files
+*.csv
 
+# Ignore all data folders completely
+data/raw/
+data/processed/
 # Streamlit
 .streamlit/secrets.toml
